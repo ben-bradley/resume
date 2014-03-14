@@ -10,6 +10,7 @@ define([
 	ResumesCollection,
 	ResumesView, ResumeView
 ) {
+	
 	var initialize = function() {
 		
 		var resumesCollection = new ResumesCollection();
@@ -32,7 +33,22 @@ define([
 				router.navigate('/');
 		});
 		
-		Backbone.history.start()
+		Backbone.history.start();
+		
+		var fillHeight = function() {
+			var h = $(window).innerHeight();
+			$('[data-fill-height').each(function() {
+				var $this = $(this),
+						top = $this.offset().top;
+				$this.css({
+					'max-height': h-top,
+					'height': h-top,
+					'overflow-y': 'auto'
+				});
+			});
+		};
+		
+		fillHeight();
 		
 	};
 

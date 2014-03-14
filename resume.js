@@ -1,4 +1,6 @@
 var express = require('express'),
+		http = require('http'),
+		crypto = require('crypto'),
 		fs = require('fs');
 
 var app = express();
@@ -7,6 +9,8 @@ var app = express();
 var config = {
 	port: 8080
 };
+
+var md5sum = crypto.createHash('md5');
 
 // global for the list of resumes
 var resumes = [];
@@ -37,6 +41,7 @@ fs.readdir(__dirname+'/resumes', function(err, files) {
 		try {
 			var resume = require(__dirname+'/resumes/'+file);
 			resume._file = __dirname+'/resumes/'+file;
+			resume._gravatarUrl = 'http://www.gravatar.com/avatar/'+md5sum.update(resume.email).digest('hex');
 			resumes.push(resume);
 		}
 		catch(err) {
