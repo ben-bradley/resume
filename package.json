@@ -1,0 +1,26 @@
+{
+  "name": "ben-bradley-resume",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ben Bradley",
+    "url": "http://github.com/ben-bradley"
+  },
+  "description": "Both a resume and an example of my coding techniques!",
+  "main": "./resume",
+  "keywords": [
+  	"Ben Bradley",
+  	"resume"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ben-bradley/resume"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+  	"express": "3.x"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+<h1><%= resume.name %></h1>
+<h2><%= resume.email %></h2>
+
+<h3>Experience</h3>
+<div>
+	<% resume.experience.forEach(function(exp) { %>
+		<ul>
+			<li>From: <%= exp.from %></li>
+			<li>To: <%= exp.to %></li>
+			<li>
+				Responsibilities:
+				<ul>
+					<% exp.responsibilities.forEach(function(r) { %>
+						<li><%= r %></li>
+					<% }); %>
+				</ul>
+			</li>
+			<li>
+				Accomplishments:
+				<ul>
+					<% exp.accomplishments.forEach(function(a) { %>
+						<li><%= a %></li>
+					<% }); %>
+				</ul>
+			</li>
+		</ul>
+	<% }); %>
+</div>
+
+<pre><%= JSON.stringify(resume, null, 2) %></pre>

@@ -1,0 +1,6 @@
+<ul class='uk-nav'>
+	<li class='uk-nav-header'>People</li>
+	<% resumes.forEach(function(resume) { %>
+		<li><a href='#/resume/<%= resume.name %>'><%= resume.name %></a></li>
+	<% }); %>
+</ul>
