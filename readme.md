@@ -13,3 +13,4 @@ cd resume
 npm install express
 node ./resume
 ```
+Then open http://localhost:8080/ and enjoy!
