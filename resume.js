@@ -44,4 +44,5 @@ fs.readdir(__dirname+'/resumes', function(err, files) {
 		}
 	});
 	app.listen(config.port);
+	console.log('App started, check it out: http://localhost:8080/');
 });
