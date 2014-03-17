@@ -5,7 +5,7 @@ module.exports = {
 		'Architected and developed Ethernet network topology mapping application built entirely on JavaScript',
 		'Designed, installed, configured and supported deployment of CA Infrastructure Manager 2.0',
 		'Developed back-end framework and UI for Ethernet Services Provisioning application',
-		'Designed and configured CA Spectrum network fault managment system',
+		'Designed and configured CA Spectrum network fault management system',
 		'Developed multiple applications to automate the routine functions of a Tier 3 Network Technician',
 		'Served as Intelligence Officer for the 7th Signal Brigade in Mannheim, Germany',
 		'Served as Officer in Charge for voice and data network services in Baghdad\'s International Zone'
