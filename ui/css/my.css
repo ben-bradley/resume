@@ -4,3 +4,6 @@ dt {
 .my-no-margin {
 	margin: 0px !important;
 }
+li>a {
+	display: inline !important;
+}
