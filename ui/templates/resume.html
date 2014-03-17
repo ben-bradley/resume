@@ -12,12 +12,19 @@
 <% if (resume.experienceSummary) { %>
 	<div class='uk-grid'>
 		<div class='uk-width-1-1'>
-			<h2>Experience Summary</h2>
-			<ul class=''>
+			<h2>
+				Experience Summary
+				<span class='uk-text-muted my-show my-exp-sum'><i class='uk-icon-edit' data-target='.my-exp-sum'></i></span>
+				<span class='uk-text-muted my-edit my-exp-sum'><i class='uk-icon-save' data-target='.my-exp-sum' data-save='#experienceSummary'></i></span>
+			</h2>
+			<ul class='my-show my-exp-sum'>
 				<% resume.experienceSummary.forEach(function(exp) { %>
 					<li><%= exp %></li>
 				<% }); %>
 			</ul>
+			<div class='my-edit my-exp-sum'>
+				<textarea class='uk-width-1-1' rows='5' id='experienceSummary'><%= JSON.stringify(resume.experienceSummary, null, 2) %></textarea>
+			</div>
 		</div>
 	</div>
 <% } %>
@@ -25,13 +32,20 @@
 <% if (resume.skills) { %>
 	<div class='uk-grid'>
 		<div class='uk-width-1-1'>
-			<h2>Skills</h2>
-			<dl class='uk-description-list-horizontal'>
+			<h2>
+				Skills
+				<span class='uk-text-muted my-show my-skills'><i class='uk-icon-edit' data-target='.my-skills'></i></span>
+				<span class='uk-text-muted my-edit my-skills'><i class='uk-icon-save' data-target='.my-skills' data-save='#skills'></i></span>
+			</h2>
+			<dl class='uk-description-list-horizontal my-show my-skills'>
 				<% resume.skills.forEach(function(skill) { %>
 					<dt><%= skill.name %></dt>
 					<dd><%= skill.detail %></dd>
 				<% }); %>
 			</dl>
+			<div class='my-edit my-skills'>
+				<textarea class='uk-width-1-1' rows='5' id='skills'><%= JSON.stringify(resume.skills, null, 2) %></textarea>
+			</div>
 		</div>
 	</div>
 <% } %>
@@ -39,36 +53,43 @@
 <% if (resume.experienceDetail) { %>
 	<div class='uk-grid'>
 		<div class='uk-width-1-1'>
-			<h2>Experience Detail</h2>
+			<h2>
+				Experience Detail
+				<span class='uk-text-muted my-show my-exp-det'><i class='uk-icon-edit' data-target='.my-exp-det'></i></span>
+				<span class='uk-text-muted my-edit my-exp-det'><i class='uk-icon-save' data-target='.my-exp-det' data-save='#experienceDetail'></i></span>
+			</h2>
 			<% resume.experienceDetail.forEach(function(exp) { %>
 					
-					<div class='uk-width-1-1 uk-grid'>
-						<div class='uk-width-1-2'>
-							<h3 class='uk-text-bold'><%= exp.company %> - <span class='uk-text-muted'><%= exp.title %></span></h3>
-						</div>
-						<div class='uk-width-1-2'>
-							<h4 class='uk-text-bold'><%= exp.from %> - <%= exp.to %></h4>
-						</div>
-						<div class='uk-width-1-1'></div>
-						<div class='uk-width-1-2'>
-							<h4>Responsibilities</h4>
-							<ul>
-								<% exp.responsibilities.forEach(function(r) { %>
-									<li><%= r %></li>
-								<% }); %>
-							</ul>
-						</div>
-						<div class='uk-width-1-2'>
-							<h4>Accomplishments</h4>
-							<ul>
-								<% exp.accomplishments.forEach(function(a) { %>
-									<li><%= a %></li>
-								<% }); %>
-							</ul>
-						</div>
+				<div class='uk-width-1-1 uk-grid my-show my-exp-det'>
+					<div class='uk-width-1-2'>
+						<h3 class='uk-text-bold'><%= exp.company %> - <span class='uk-text-muted'><%= exp.title %></span></h3>
 					</div>
+					<div class='uk-width-1-2'>
+						<h4 class='uk-text-bold'><%= exp.from %> - <%= exp.to %></h4>
+					</div>
+					<div class='uk-width-1-1'></div>
+					<div class='uk-width-1-2'>
+						<h4>Responsibilities</h4>
+						<ul>
+							<% exp.responsibilities.forEach(function(r) { %>
+								<li><%= r %></li>
+							<% }); %>
+						</ul>
+					</div>
+					<div class='uk-width-1-2'>
+						<h4>Accomplishments</h4>
+						<ul>
+							<% exp.accomplishments.forEach(function(a) { %>
+								<li><%= a %></li>
+							<% }); %>
+						</ul>
+					</div>
+				</div>
 					
 			<% }); %>
+			<div class='my-edit my-exp-det'>
+				<textarea class='uk-width-1-1' rows='20' id='experienceDetail'><%= JSON.stringify(resume.experienceDetail, null, 2) %></textarea>
+			</div>
 		</div>
 	</div>	
 <% } %>

@@ -27,21 +27,64 @@ var resumes = {
 		return got;
 	},
 	
-	add: function(data, res) {
-		
+	read: function(callback) {
+		// read the resumes and start the server
+		fs.readdir(__dirname+'/resumes', function(err, files) {
+			files.forEach(function(file) {
+				try {
+					resume = JSON.parse(fs.readFileSync(__dirname+'/resumes/'+file));
+					if (!resume._file)
+						resume._file = __dirname+'/resumes/'+file;
+					if (!resume._gravatarUrl)
+						resume._gravatarUrl = 'http://www.gravatar.com/avatar/'+md5sum.update(resume.email).digest('hex');
+					resumes.list.push(resume);
+				}
+				catch(err) {
+					console.error('Can\'t import file: '+__dirname+file);
+				}
+			});
+			callback();
+		});
 	},
 	
 	update: function(data, res) {
-		
+		console.log('update:',data.name);
+		var resume = this.get(data.name);
+		for (var a in data) { resume[a] = data[a]; }
+		fs.writeFile(resume._file, JSON.stringify(resume, null, 2), function(err) {
+			if (err)
+				res.send(err);
+			else
+				res.send(resume);
+		});
 	},
 	
-	remove: function(data, res) {
-		
+	// this is todo
+	add: function(resume, res) {
+//		console.log('add:', resume);
+//		resume._file = __dirname+'/resumes/'+resume.name.replace(/ /g,'-')+'.json';
+//		resume._gravatarUrl = 'http://www.gravatar.com/avatar/'+md5sum.update(resume.email).digest('hex');
+//		fs.writeFile(resume._file, JSON.stringify(resume, null, 2), function(err) {
+//			if (err)
+//				res.send(err);
+//			else
+//				res.send(resume);
+//		});
+		res.send({ todo: 'build add route' });
+	},
+	
+	// this is todo
+	remove: function(person, res) {
+		res.send({ todo: 'build remove route' });
 	}
 	
 }
 
 app.configure(function() {
+		
+	app.use(express.bodyParser());
+	app.use(express.cookieParser(new Date().getTime()+''));
+	app.use(express.session());
 	
 	// return the static elements of the ui
 	app.use('/', express.static(__dirname+'/ui'));
@@ -56,46 +99,34 @@ app.configure(function() {
 		res.send(resumes.get(req.params.person));
 	});
 	
-	// TODO: build the 'save new' route
-	app.post('/api/resumes/:person', function(req, res) {
-		// validate that the person is new
-		var resume = resumes.get(req.params.person);
-		if (!resume)
-			resumes.add(req.body, res);
-		else
-			resumes.update(req.body, res);
-	});
-	
-	// TODO: build the 'update' route
+	// edit and return a specific resume
 	app.put('/api/resumes/:person', function(req, res) {
 		// validate that the person is NOT new
 		var resume = resumes.get(req.params.person);
-		if (!resume)
-			resumes.add(req.body, res);
-		else
+		if (resume)
 			resumes.update(req.body, res);
+		else
+			res.send({ error: 'no resume for: '+req.params.person });
 	});
 	
-	// TODO: build the 'delete' route
-	app.delete('/api/resumes/:person', function(req, res) {
-		resumes.remove(req.params.person, res);
-	});
+	// TODO: build the 'save new' route
+//	app.post('/api/resumes/:person', function(req, res) {
+//		// validate that the person is new
+//		var resume = resumes.get(req.params.person);
+//		if (!resume)
+//			resumes.add(req.body, res);
+//		else
+//			resumes.update(req.body, res);
+//	});
+	
+//	// TODO: build the 'delete' route
+//	app.delete('/api/resumes/:person', function(req, res) {
+//		resumes.remove(req.params.person, res);
+//	});
 	
 });
 
-// read the resumes and start the server
-fs.readdir(__dirname+'/resumes', function(err, files) {
-	files.forEach(function(file) {
-		try {
-			resume = JSON.parse(fs.readFileSync(__dirname+'/resumes/'+file));
-			resume._file = __dirname+'/resumes/'+file;
-			resume._gravatarUrl = 'http://www.gravatar.com/avatar/'+md5sum.update(resume.email).digest('hex');
-			resumes.list.push(resume);
-		}
-		catch(err) {
-			console.error('Can\'t import file: '+__dirname+file);
-		}
-	});
+resumes.read(function() {
 	app.listen(config.port);
 	console.log('App started, check it out: http://localhost:8080/');
 });

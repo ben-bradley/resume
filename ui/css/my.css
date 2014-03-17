@@ -7,3 +7,6 @@ dt {
 li>a {
 	display: inline !important;
 }
+textarea {
+	font-family: monospace;
+}
