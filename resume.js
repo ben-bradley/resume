@@ -27,8 +27,10 @@ var resumes = {
 		return got;
 	},
 	
+	// Read the resumes and run the callback
+	// This could just as easily be a database lookup, but I didn't
+	// want to create more dependencies
 	read: function(callback) {
-		// read the resumes and start the server
 		fs.readdir(__dirname+'/resumes', function(err, files) {
 			files.forEach(function(file) {
 				try {
@@ -126,7 +128,8 @@ app.configure(function() {
 	
 });
 
+// read the resumes & start the server
 resumes.read(function() {
 	app.listen(config.port);
-	console.log('App started, check it out: http://localhost:8080/');
+	console.log('App started, check it out: http://localhost:'+config.port+'/');
 });
