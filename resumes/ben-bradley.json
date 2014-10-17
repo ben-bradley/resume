@@ -11,12 +11,12 @@
     "Served as Officer in Charge for voice and data network services in Baghdad's International Zone"
   ],
   "thingsIDo": {
-    well: [
+    "well": [
       "Make stuff work.",
       "Figure out and solve complex problems.",
       "Accept feedback."
     ],
-    lessWell: [
+    "lessWell": [
       "Make pretty UIs."
     ]
   },
