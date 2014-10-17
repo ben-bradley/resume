@@ -10,14 +10,32 @@
     "Served as Intelligence Officer for the 7th Signal Brigade in Mannheim, Germany",
     "Served as Officer in Charge for voice and data network services in Baghdad's International Zone"
   ],
+  "thingsIDo": {
+    well: [
+      "Make stuff work.",
+      "Figure out and solve complex problems.",
+      "Accept feedback."
+    ],
+    lessWell: [
+      "Make pretty UIs."
+    ]
+  },
   "skills": [
     {
       "name": "Software Development",
       "detail": "JavaScript, NodeJS, JQuery, PHP, BASH"
     },
     {
+      "name": "Database Management",
+      "detail": "MongoDB, MySQL, MSSQL, Oracle"
+    },
+    {
       "name": "Telecommunications",
       "detail": "Metro Ethernet, Fiber Optics, VoIP, Satellite"
+    },
+    {
+      "name": "Network Administration",
+      "detail": "OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet"
     },
     {
       "name": "Project Management",
@@ -32,23 +50,26 @@
       "detail": "CA Spectrum, CA Infrastructure Manager 2.0"
     },
     {
-      "name": "Network Administration",
-      "detail": "OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet"
-    },
-    {
-      "name": "Database Management",
-      "detail": "MongoDB, MySQL, MSSQL, Oracle"
-    },
-    {
       "name": "Knowledge Management",
       "detail": "SharePoint, MS Office Suite"
     }
   ],
   "experienceDetail": [
     {
+      "company": "Cigna",
+      "from": "April 2014",
+      "to": "Current",
+      "responsibilities": [
+        "TODO"
+      ],
+      "accomplishments": [
+        "TODO"
+      ]
+    },
+    {
       "company": "Integra",
       "from": "March 2011",
-      "to": "Current",
+      "to": "April 2014",
       "title": "Senior Systems Developer",
       "responsibilities": [
         "Architect, implement, and support CA Spectrum fault management and Infrastructure Manager 2.0 performance management solution for nationwide network.",
