@@ -13,21 +13,24 @@
   "thingsIDo": {
     "well": [
       "Make stuff work.",
+      "Integrate disperate systems into a common framework.",
       "Figure out and solve complex problems.",
+      "Make UIs that simplify API interactions.",
       "Accept feedback."
     ],
-    "lessWell": [
-      "Make pretty UIs."
+    "butDoNotEnjoy": [
+      "Make pretty UIs.",
+      "Documentation"
     ]
   },
   "skills": [
     {
       "name": "Software Development",
-      "detail": "JavaScript, NodeJS, JQuery, PHP, BASH"
+      "detail": "iojs/NodeJS, JavaScript, React, Angular, Backbone"
     },
     {
       "name": "Database Management",
-      "detail": "MongoDB, MySQL, MSSQL, Oracle"
+      "detail": "MongoDB, Redis, MySQL, MSSQL, Oracle"
     },
     {
       "name": "Telecommunications",
@@ -54,16 +57,48 @@
       "detail": "SharePoint, MS Office Suite"
     }
   ],
+  "technologies": {
+    "languages": [
+      "iojs/NodeJS",
+      "JavaScript"
+    ],
+    "databases": [
+      "MongoDB",
+      "Redis",
+      "MySQL",
+      "MSSQL",
+      "Oracle"
+    ],
+    "frameworks": {
+      "serverSide": [
+        "Hapi",
+        "Express",
+        "Mongoose"
+      ],
+      "browserSide": [
+        "JQuery",
+        "React",
+        "Angular",
+        "Backbone",
+        "Bootstrap",
+        "UIKit"
+      ]
+    }
+  },
   "experienceDetail": [
     {
       "company": "Cigna",
       "from": "April 2014",
       "to": "Current",
+      "title": "Senior Systems Architect",
       "responsibilities": [
-        "TODO"
+        "Work closely with the Quality Assurance team to understand and meet their automation needs.",
+        "Rapidly develop prototype and tactical applications to solve short or no-notice problems."
       ],
       "accomplishments": [
-        "TODO"
+        "Wrote REST API framework to enable multiple application integrations including JIRA, Jama, Twilio, and Fitbit.",
+        "Automated multiple MongoDB operations to enable QA performance and unit testing automation.",
+        "Developed several web apps that simplified complex SQL and NoSQL database interactions which greatly reduced time spent troubleshooting bugs."
       ]
     },
     {
@@ -140,6 +175,5 @@
       ]
     }
   ],
-  "_file": "h:\\dev\\resume/resumes/ben-bradley.json",
   "_gravatarUrl": "http://www.gravatar.com/avatar/7878452bca9783af810dbfc621d0bdc6"
 }
