@@ -2,6 +2,7 @@
   "name": "Ben Bradley",
   "email": "ben@bradleyit.com",
   "experienceSummary": [
+    "Developed multiple tools to enable integration and performance testing of REST-based web applications",
     "Architected and developed Ethernet network topology mapping application built entirely on JavaScript",
     "Designed, installed, configured and supported deployment of CA Infrastructure Manager 2.0",
     "Developed back-end framework and UI for Ethernet Services Provisioning application",
@@ -26,7 +27,7 @@
   "skills": [
     {
       "name": "Software Development",
-      "detail": "iojs/NodeJS, JavaScript, React, Angular, Backbone"
+      "detail": "iojs/NodeJS, JavaScript/ES2015, React"
     },
     {
       "name": "Database Management",
@@ -60,7 +61,7 @@
   "technologies": {
     "languages": [
       "iojs/NodeJS",
-      "JavaScript"
+      "JavaScript/ES2015"
     ],
     "databases": [
       "MongoDB",
@@ -73,7 +74,8 @@
       "serverSide": [
         "Hapi",
         "Express",
-        "Mongoose"
+        "Mongoose",
+        "AMQP"
       ],
       "browserSide": [
         "JQuery",
@@ -96,6 +98,7 @@
         "Rapidly develop prototype and tactical applications to solve short or no-notice problems."
       ],
       "accomplishments": [
+        "Created a simulator for the Fitbit REST API to enable internal performance testing for internal and external clients",
         "Wrote REST API framework to enable multiple application integrations including JIRA, Jama, Twilio, and Fitbit.",
         "Automated multiple MongoDB operations to enable QA performance and unit testing automation.",
         "Developed several web apps that simplified complex SQL and NoSQL database interactions which greatly reduced time spent troubleshooting bugs."
