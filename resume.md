@@ -48,13 +48,15 @@
 
 - Work closely with the Quality Assurance team to understand and meet their automation needs
 - Rapidly develop prototype and tactical applications to solve short or no-notice problems
+- Troubleshoot legacy production-internal NodeJS applications
 
 #### Accomplishments
 
+- Successfully submitted a merge request to the auth0/jsonwebtoken project enable the availability to ignore expiration dates on JWTs
 - Created a simulator for the Fitbit REST API to enable internal performance testing for internal and external client
-- Wrote REST API framework to enable multiple application integrations including JIRA, Jama, Twilio, and Fitbit
+- Wrote more than 15 REST APIs and web applications to enable integrations using technologies that included Mongo, Redis, Rabbit, Kafka, JIRA, Jama, Twilio, and Fitbit
 - Automated multiple MongoDB operations to enable QA performance and unit testing automation
-- Developed several web apps that simplified complex SQL and NoSQL database interactions which greatly reduced time spent troubleshooting bugs
+- Developed several web applications that simplified complex SQL and NoSQL database interactions which greatly reduced time spent troubleshooting bugs
 
 
 ### Senior Systems Developer - Integra Telecom

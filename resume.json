@@ -1,91 +1,64 @@
 {
   "name": "Ben Bradley",
   "email": "ben@bradleyit.com",
+  "social": [
+    "https://github.com/ben-bradley",
+    "https://www.npmjs.com/~ben-bradley"
+  ],
   "experienceSummary": [
-    "Developed multiple tools to enable integration and performance testing of REST-based web applications",
-    "Architected and developed Ethernet network topology mapping application built entirely on JavaScript",
+    "Authored 33 NPM packages and contributed to Mocha, SSH2, and JSONWebToken",
+    "Created 5 full-stack applications built on Hapi and React to enable internal production support",
+    "Engineered more than 15 back-end tools and APIs integrating MongoDB, Redis, Kafka, Rabbit, and SOAP endpoints",
+    "Architected QA Automation framework to validate external prodcution REST API",
+    "Developed a network topology mapping application built entirely on JavaScript (NodeJS, MongoDB, Backbone)",
+    "Developed back-end framework and wrote the UI code for the Ethernet Services Provisioning application",
+    "Wrote multiple applications to automate the routine functions of a Tier 3 Network Technician",
+    "Developed a full-stack application framework enabling the integration of smaller applications into a common UI",
     "Designed, installed, configured and supported deployment of CA Infrastructure Manager 2.0",
-    "Developed back-end framework and UI for Ethernet Services Provisioning application",
     "Designed and configured CA Spectrum network fault management system",
-    "Developed multiple applications to automate the routine functions of a Tier 3 Network Technician",
     "Served as Intelligence Officer for the 7th Signal Brigade in Mannheim, Germany",
     "Served as Officer in Charge for voice and data network services in Baghdad's International Zone"
   ],
-  "thingsIDo": {
-    "well": [
-      "Make stuff work.",
-      "Integrate disperate systems into a common framework.",
-      "Figure out and solve complex problems.",
-      "Make UIs that simplify API interactions.",
-      "Accept feedback."
-    ],
-    "butDoNotEnjoy": [
-      "Make pretty UIs.",
-      "Documentation"
-    ]
-  },
-  "skills": [
-    {
-      "name": "Software Development",
-      "detail": "iojs/NodeJS, JavaScript/ES2015, React"
-    },
-    {
-      "name": "Database Management",
-      "detail": "MongoDB, Redis, MySQL, MSSQL, Oracle"
-    },
-    {
-      "name": "Telecommunications",
-      "detail": "Metro Ethernet, Fiber Optics, VoIP, Satellite"
-    },
-    {
-      "name": "Network Administration",
-      "detail": "OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet"
-    },
-    {
-      "name": "Project Management",
-      "detail": "Network Services, IT Infrastructure, Software"
-    },
-    {
-      "name": "Operations Management",
-      "detail": "Logistics, Training, Personnel, Safety"
-    },
-    {
-      "name": "Network Control Center",
-      "detail": "CA Spectrum, CA Infrastructure Manager 2.0"
-    },
-    {
-      "name": "Knowledge Management",
-      "detail": "SharePoint, MS Office Suite"
-    }
+  "thingsIEnjoyDoing": [
+    "Making stuff work.",
+    "Integrating disperate systems into a common frameworks.",
+    "Solving complex technical problems.",
+    "Simplifying API interactions."
   ],
+  "skills": [{
+    "name": "Back-end Development",
+    "detail": "NodeJS, ES6/2015, Hapi, REST APIs, Streams"
+  }, {
+    "name": "Database/Caching/PubSub Integrations",
+    "detail": "MongoDB, Redis, Kafka, Rabbit, MySQL, MSSQL, Oracle"
+  }, {
+    "name": "Front-end Development",
+    "detail": "React, MaterialUI, Backbone, D3.js, Bootstrap"
+  }, {
+    "name": "Software Development",
+    "detail": "Agile Scrum, DevOps, Waterfall"
+  }, {
+    "name": "Project Management",
+    "detail": "Network Services, IT Infrastructure, Software"
+  }, {
+    "name": "Telecommunications",
+    "detail": "Metro Ethernet, Fiber Optics, VoIP, Satellite"
+  }, {
+    "name": "Network Engineering",
+    "detail": "OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet"
+  }, {
+    "name": "Operations Management",
+    "detail": "Logistics, Training, Personnel, Safety"
+  }, {
+    "name": "Network Control Center",
+    "detail": "CA Spectrum, CA Infrastructure Manager 2.0"
+  }],
   "technologies": {
-    "languages": [
-      "iojs/NodeJS",
-      "JavaScript/ES2015"
-    ],
-    "databases": [
-      "MongoDB",
-      "Redis",
-      "MySQL",
-      "MSSQL",
-      "Oracle"
-    ],
-    "frameworks": {
-      "serverSide": [
-        "Hapi",
-        "Express",
-        "Mongoose",
-        "AMQP"
-      ],
-      "browserSide": [
-        "JQuery",
-        "React",
-        "Angular",
-        "Backbone",
-        "Bootstrap",
-        "UIKit"
-      ]
-    }
+    "languages": [ "NodeJS", "JavaScript", "ES6/2015", "HTML", "LESS" ],
+    "databases": [ "MongoDB", "Redis", "MySQL", "MSSQL", "Oracle" ],
+    "queues": [ "Kafka", "Rabbit" ],
+    "backEnd": [ "Hapi", "Express", "Browserify", "Gulp", "Yeoman" ],
+    "frontEnd": [ "React", "MaterialUI", "JQuery", "Angular", "Backbone", "Bootstrap", "UIKit" ]
   },
   "experienceDetail": [
     {
@@ -95,13 +68,15 @@
       "title": "Senior Systems Architect",
       "responsibilities": [
         "Work closely with the Quality Assurance team to understand and meet their automation needs.",
-        "Rapidly develop prototype and tactical applications to solve short or no-notice problems."
+        "Rapidly develop prototype and tactical applications to solve short or no-notice problems.",
+        "Troubleshoot legacy production-internal NodeJS applications."
       ],
       "accomplishments": [
-        "Created a simulator for the Fitbit REST API to enable internal performance testing for internal and external clients",
-        "Wrote REST API framework to enable multiple application integrations including JIRA, Jama, Twilio, and Fitbit.",
+        "Successfully submitted a merge request to the auth0/jsonwebtoken project enable the availability to ignore expiration dates on JWTs.",
+        "Created a simulator for the Fitbit REST API to enable internal performance testing for internal and external client.",
+        "Wrote more than 15 REST APIs and web applications to enable integrations using technologies that included Mongo, Redis, Rabbit, Kafka, JIRA, Jama, Twilio, and Fitbit.",
         "Automated multiple MongoDB operations to enable QA performance and unit testing automation.",
-        "Developed several web apps that simplified complex SQL and NoSQL database interactions which greatly reduced time spent troubleshooting bugs."
+        "Developed several web applications that simplified complex SQL and NoSQL database interactions which greatly reduced time spent troubleshooting bugs."
       ]
     },
     {
@@ -177,6 +152,5 @@
         "Recognized with the Bronze Star Medal and Army Achievement Medal for the superior performance of the department."
       ]
     }
-  ],
-  "_gravatarUrl": "http://www.gravatar.com/avatar/7878452bca9783af810dbfc621d0bdc6"
+  ]
 }
