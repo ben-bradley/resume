@@ -2,12 +2,26 @@
 
 > ben@bradleyit.com
 
+## What I'm Looking For
+
+### The Work
+
+I want to work at a company that's doing something exciting. Something that I can talk about with my friends and family with passion and enthusiasm. When asked, "How was work today?", I want to be able to say, "Oh, man! The flux capacitor was running hot, but I refactored the coupling and managed to squeeze out another jiggawatt!"
+
+### The People
+
+I like to think of myself as an easy-going, friendly and respectful person and I prefer to spend my time around people who think similarly of themselves. When you work with people that are cool and level-headed, the debate about tabs vs. spaces (__2 spaces!__) isn't quite as significant and you're able to focus on getting work done.
+
+### The Culture
+
+I love to be a productive contributor to a common goal, at the end of the day, I do it all for my family. Finding a sustainable work/life balance is crucial. Of course there will be times when you have to answer the phone, but when those instances become the norm instead of the rare exception, it's time to re-evaluate and find a better balance.
+
 ## Summary
 
 - Authored 33 NPM packages and contributed to Mocha, SSH2, and JSONWebToken
 - Created 5 full-stack applications built on Hapi and React to enable internal production support
 - Engineered more than 15 back-end tools and APIs integrating MongoDB, Redis, Kafka, Rabbit, and SOAP endpoints
-- Architected QA Automation framework to validate external prodcution REST API
+- Architected QA Automation framework to validate external production REST API
 - Developed a network topology mapping application built entirely on JavaScript (NodeJS, MongoDB, Backbone)
 - Developed back-end framework and wrote the UI code for the Ethernet Services Provisioning application
 - Wrote multiple applications to automate the routine functions of a Tier 3 Network Technician
