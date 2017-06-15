@@ -56,23 +56,9 @@ I love to be a productive contributor to a common goal, at the end of the day, I
 
 ## Experience
 
-### Lead Software Development Engineer in Test - Cigna Healthcare
-
-> February 2017 - Current
-
-#### Responsibilities
-
-- Coordinate a team of SDET and Performance Test engineers across multiple functional teams within the organization
-- Institute CI/CD practices and technologies into various
-
-#### Accomplishments
-
--
-
-
 ### Senior Software Developer - Cigna Healthcare
 
-> April 2014 - January 2017
+> April 2014 - Current
 
 #### Responsibilities
 
