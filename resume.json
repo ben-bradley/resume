@@ -1,11 +1,14 @@
 {
   "name": "Ben Bradley",
-  "email": "ben@bradleyit.com",
+  "email": "ben@bradleyfamily.org",
   "social": [
     "https://github.com/ben-bradley",
     "https://www.npmjs.com/~ben-bradley"
   ],
   "experienceSummary": [
+    "Overall responsibility for the design & operation of all aspects of the company's products",
+    "Implemented Agile development practices and acted as Scrum Master and team member",
+    "Designed, developed, and maintained Internet Booking Engine as the company's flagship product",
     "Authored 33 NPM packages and contributed to Mocha, SSH2, and JSONWebToken",
     "Created 5 full-stack applications built on Hapi and React to enable internal production support",
     "Engineered more than 15 back-end tools and APIs integrating MongoDB, Redis, Kafka, Rabbit, and SOAP endpoints",
@@ -35,8 +38,11 @@
     "name": "Front-end Development",
     "detail": "React, MaterialUI, Backbone, D3.js, Bootstrap"
   }, {
+    "name": "DevOps",
+    "detail": "Nginx, GitHub, Google Cloud"
+  }, {
     "name": "Software Development",
-    "detail": "Agile Scrum, DevOps, Waterfall"
+    "detail": "Agile Scrum, Waterfall"
   }, {
     "name": "Project Management",
     "detail": "Network Services, IT Infrastructure, Software"
@@ -50,8 +56,8 @@
     "name": "Operations Management",
     "detail": "Logistics, Training, Personnel, Safety"
   }, {
-    "name": "Network Control Center",
-    "detail": "CA Spectrum, CA Infrastructure Manager 2.0"
+    "name": "Preferred Development Toolset",
+    "detail": "Atom, GitHub, Node.js, MongoDB, Ubuntu, React, Slack"
   }],
   "technologies": {
     "languages": [ "NodeJS", "JavaScript", "ES6/2015", "HTML", "LESS" ],
@@ -62,10 +68,30 @@
   },
   "experienceDetail": [
     {
+      "company": "PaxIQ",
+      "from": "August 2017",
+      "to": "August 2019",
+      "title": "Senior Software Engineer",
+      "responsibilities": [
+        "Responsible for all technical aspects of the company's flagship products.",
+        "Design, develop, and maintain the systems, databases, networks and applications to support the delivery of the company's products.",
+        "Troubleshooting and investigation of multiple applications and integrations.",
+        "Training and professional development of Junior Developers."
+      ],
+      "accomplishments": [
+        "Built an Internet Booking Engine as a white-label airline booking and ticketing system that enabled online operations for small to mid-sized regional carriers.",
+        "Developed multiple rules-based integrations enabling intelligent, automated handling and processing of airline booking data into multiple disparate systems.",
+        "Redesigned and implemented coding standards in legacy airline operations software.",
+        "Created a distributed queuing system that converted airline inventory records from a fixed-length text messages into JSON and XML-based APIs.",
+        "Built a REST API that enabled modern integrations with legacy, terminal command-based systems.",
+        "Architected the systems, databases, and networks that provided the foundation for the company's products."
+      ]
+    },
+    {
       "company": "Cigna",
       "from": "April 2014",
-      "to": "Current",
-      "title": "Senior Systems Architect",
+      "to": "August 2017",
+      "title": "Senior Software Developer",
       "responsibilities": [
         "Work closely with the Quality Assurance team to understand and meet their automation needs.",
         "Rapidly develop prototype and tactical applications to solve short or no-notice problems.",
