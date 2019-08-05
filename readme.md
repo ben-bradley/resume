@@ -1,6 +1,6 @@
 # Ben Bradley
 
-> ben@bradleyit.com
+> ben@bradleyfamily.org
 
 ## What I'm Looking For
 
@@ -10,14 +10,17 @@ I want to work at a company that's doing something exciting. Something that I ca
 
 ### The People
 
-I like to think of myself as an easy-going, friendly and respectful person and I prefer to spend my time around people who think similarly of themselves. When you work with people that are cool and level-headed, the debate about tabs vs. spaces (__2 spaces!__) isn't quite as significant and you're able to focus on getting work done.
+I like to think of myself as an easy-going, friendly and respectful person and I prefer to spend my time around people who think similarly of themselves. When you work with people that are cool and level-headed, the debate about tabs vs. spaces (__2 spaces!__) isn't a distraction and you're able to focus on getting work done.
 
 ### The Culture
 
-I love to be a productive contributor to a common goal, at the end of the day, I do it all for my family. Finding a sustainable work/life balance is crucial. Of course there will be times when you have to answer the phone, but when those instances become the norm instead of the rare exception, it's time to re-evaluate and find a better balance.
+I love to build things, solve problems, and make stuff happen, but at the end of the day, I do it all for my family. Finding a sustainable work/life balance is crucial. Of course there will be times when you have to answer the phone outside of "normal hours", but when that becomes the standard instead of the exception, it's time to re-evaluate in order to find a better balance.
 
 ## Summary
 
+- Overall responsibility for the design & operation of all aspects of the company's products
+- Implemented Agile development practices and acted as Scrum Master and team member
+- Designed, developed, and maintained Internet Booking Engine as the company's flagship product
 - Authored 33 NPM packages and contributed to Mocha, SSH2, and JSONWebToken
 - Created 5 full-stack applications built on Hapi and React to enable internal production support
 - Engineered more than 15 back-end tools and APIs integrating MongoDB, Redis, Kafka, Rabbit, and SOAP endpoints
@@ -39,8 +42,10 @@ I love to be a productive contributor to a common goal, at the end of the day, I
   - MongoDB, Redis, Kafka, Avro, Rabbit, MySQL, MSSQL, Oracle
 - Front-end Development
   - React, MaterialUI, Backbone, D3.js, Bootstrap
+- DevOps
+  - Nginx, GitHub, Google Cloud
 - Software Development
-  - Agile Scrum, DevOps, Waterfall, TDD
+  - Agile Scrum, Waterfall, TDD
 - Software QA
   - Mocha, Jasmine, TestRail, JIRA
 - Telecommunications
@@ -51,14 +56,35 @@ I love to be a productive contributor to a common goal, at the end of the day, I
   - Network Services, IT Infrastructure, Software
 - Operations Management
   - Logistics, Training, Personnel, Safety
-- Network Control Center
-  - CA Spectrum, CA Infrastructure Manager 2.0
+- Preferred Development Toolset
+  - Atom, GitHub, Node.js, MongoDB, Ubuntu, React, Slack
 
 ## Experience
 
+### Senior Software Engineer - PaxIQ
+
+> August 2017 - Current
+
+#### Responsibilities
+
+- Responsible for all technical aspects of the company's flagship products.
+- Design, develop, and maintain the systems, databases, networks and applications to support the delivery of the company's products.
+- Troubleshooting and investigation of multiple applications and integrations.
+- Training and professional development of Junior Developers.
+
+#### Accomplishments
+
+- Built an Internet Booking Engine as a white-label airline booking and ticketing system that enabled online operations for small to mid-sized regional carriers.
+- Developed multiple rules-based integrations enabling intelligent, automated handling and processing of airline booking data into multiple disparate systems.
+- Redesigned and implemented coding standards in legacy airline operations software.
+- Created a distributed queuing system that converted airline inventory records from a fixed-length text messages into JSON and XML-based APIs.
+- Built a REST API that enabled modern integrations with legacy, terminal command-based systems.
+- Architected the systems, databases, and networks that provided the foundation for the company's products.
+
+
 ### Senior Software Developer - Cigna Healthcare
 
-> April 2014 - Current
+> April 2014 - August 2017
 
 #### Responsibilities
 
