@@ -6,7 +6,7 @@
 
 ### The Work
 
-I want to work at a company that's doing something exciting. Something that I can talk about with my friends and family with passion and enthusiasm. When asked, "How was work today?", I want to be able to say, "Oh, man! The flux capacitor was running hot, but I refactored the coupling and managed to squeeze out another jiggawatt!"
+I love working on back-end systems. Building efficient and intuitive APIs is something that I thoroughly enjoy. Learning to understand the data models and how best to interact with them is like untying a knot and putting together a jigsaw puzzle at the same time.
 
 ### The People
 
@@ -16,38 +16,53 @@ I like to think of myself as an easy-going, friendly and respectful person and I
 
 I love to build things, solve problems, and make stuff happen, but at the end of the day, I do it all for my family. Finding a sustainable work/life balance is crucial. Of course there will be times when you have to answer the phone outside of "normal hours", but when that becomes the standard instead of the exception, it's time to re-evaluate in order to find a better balance.
 
-## Summary
+## Work Summary
+
+### Walmart Labs
+
+- Subject matter expert for GraphQL API performing 20,000 transactions per minute
+- Rapidly designed & implemented new features to enable multi-channel customer messaging during COVID-19 crisis
+
+### PaxIQ
 
 - Overall responsibility for the design & operation of all aspects of the company's products
 - Implemented Agile development practices and acted as Scrum Master and team member
 - Designed, developed, and maintained Internet Booking Engine as the company's flagship product
+
+### Cigna Healthcare
 - Authored 33 NPM packages and contributed to Mocha, SSH2, and JSONWebToken
 - Created 5 full-stack applications built on Hapi and React to enable internal production support
 - Engineered more than 15 back-end tools and APIs integrating MongoDB, Redis, Kafka, Rabbit, and SOAP endpoints
 - Architected QA Automation framework to validate external production REST API
+
+### Integra Telecom
+
 - Developed a network topology mapping application built entirely on JavaScript (NodeJS, MongoDB, Backbone)
 - Developed back-end framework and wrote the UI code for the Ethernet Services Provisioning application
 - Wrote multiple applications to automate the routine functions of a Tier 3 Network Technician
 - Developed a full-stack application framework enabling the integration of smaller applications into a common UI
 - Designed, installed, configured and supported deployment of CA Infrastructure Manager 2.0
 - Designed and configured CA Spectrum network fault management system
+
+### US Army
+
 - Served as Intelligence Officer for the 7th Signal Brigade in Mannheim, Germany
 - Served as Officer in Charge for voice and data network services in Baghdad's International Zone
 
 ## Skills & Technologies
 
 - Back-end Development
-  - NodeJS, ES6/2015, REST APIs, Streams
+  - NodeJS, GraphQL, REST, Hapi, Apollo
 - Database/Caching/PubSub Integrations
   - MongoDB, Redis, Kafka, Avro, Rabbit, MySQL, MSSQL, Oracle
 - Front-end Development
   - React, MaterialUI, Backbone, D3.js, Bootstrap
 - DevOps
-  - Nginx, GitHub, Google Cloud
+  - Nginx, GitHub, Google Cloud, OneOps, Dynatrace, Splunk
 - Software Development
   - Agile Scrum, Waterfall, TDD
 - Software QA
-  - Mocha, Jasmine, TestRail, JIRA
+  - Mocha, Jasmine, Jest, JIRA
 - Telecommunications
   - Metro Ethernet, Fiber Optics, VoIP, Satellite
 - Network Engineering
@@ -59,11 +74,29 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 - Preferred Development Toolset
   - Atom, GitHub, Node.js, MongoDB, Ubuntu, React, Slack
 
-## Experience
+## Detailed Experience
+
+### Senior Software Engineer - Walmart Labs
+
+> September 2019 - Current
+
+#### Responsibilities
+
+- Design, support, & maintain GraphQL service to provide content to user-facing web and mobile applications.
+- Root cause analysis and resolution of any issues encountered during day-to-day operations or during stress-tests.
+- Advise and coordinate with internal and external teams to facilitate integrating new clients and features.
+
+#### Accomplishments
+
+- Achieved 100% code coverage.
+- Improved response time of GraphQL API by 50% by refactoring application code.
+- Designed and implemented feature to enable dynamic and targeted end-user messaging capabilities.
+- Refactored application data model in order to integrate with additional upstream data sources.
+- Scaled application from 2,000 transactions/minute to 20,000 TPM
 
 ### Senior Software Engineer - PaxIQ
 
-> August 2017 - Current
+> August 2017 - September 2019
 
 #### Responsibilities
 

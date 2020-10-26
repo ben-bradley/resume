@@ -5,22 +5,49 @@
     "https://github.com/ben-bradley",
     "https://www.npmjs.com/~ben-bradley"
   ],
-  "experienceSummary": [
-    "Overall responsibility for the design & operation of all aspects of the company's products",
-    "Implemented Agile development practices and acted as Scrum Master and team member",
-    "Designed, developed, and maintained Internet Booking Engine as the company's flagship product",
-    "Authored 33 NPM packages and contributed to Mocha, SSH2, and JSONWebToken",
-    "Created 5 full-stack applications built on Hapi and React to enable internal production support",
-    "Engineered more than 15 back-end tools and APIs integrating MongoDB, Redis, Kafka, Rabbit, and SOAP endpoints",
-    "Architected QA Automation framework to validate external prodcution REST API",
-    "Developed a network topology mapping application built entirely on JavaScript (NodeJS, MongoDB, Backbone)",
-    "Developed back-end framework and wrote the UI code for the Ethernet Services Provisioning application",
-    "Wrote multiple applications to automate the routine functions of a Tier 3 Network Technician",
-    "Developed a full-stack application framework enabling the integration of smaller applications into a common UI",
-    "Designed, installed, configured and supported deployment of CA Infrastructure Manager 2.0",
-    "Designed and configured CA Spectrum network fault management system",
-    "Served as Intelligence Officer for the 7th Signal Brigade in Mannheim, Germany",
-    "Served as Officer in Charge for voice and data network services in Baghdad's International Zone"
+  "workSummary": [
+    {
+      "organization": "Walmart Labs",
+      "items": [
+        "Subject matter expert for GraphQL API performing 20,000 transactions per minute",
+        "Rapidly designed & implemented new features to enable multi-channel customer messaging during COVID-19 crisis"
+      ]
+    },
+    {
+      "organization": "PaxIQ",
+      "items" [
+        "Overall responsibility for the design & operation of all aspects of the company's products",
+        "Implemented Agile development practices and acted as Scrum Master and team member",
+        "Designed, developed, and maintained Internet Booking Engine as the company's flagship product"
+      ]
+    },
+    {
+      "organization": "Cigna Healthcare",
+      "items": [
+        "Authored 33 NPM packages and contributed to Mocha, SSH2, and JSONWebToken",
+        "Created 5 full-stack applications built on Hapi and React to enable internal production support",
+        "Engineered more than 15 back-end tools and APIs integrating MongoDB, Redis, Kafka, Rabbit, and SOAP endpoints",
+        "Architected QA Automation framework to validate external production REST API"
+      ]
+    },
+    {
+      "organization": "Integra Telecom",
+      "items": [
+        "Developed a network topology mapping application built entirely on JavaScript (NodeJS, MongoDB, Backbone)",
+        "Developed back-end framework and wrote the UI code for the Ethernet Services Provisioning application",
+        "Wrote multiple applications to automate the routine functions of a Tier 3 Network Technician",
+        "Developed a full-stack application framework enabling the integration of smaller applications into a common UI",
+        "Designed, installed, configured and supported deployment of CA Infrastructure Manager 2.0",
+        "Designed and configured CA Spectrum network fault management system"
+      ]
+    },
+    {
+      "organization": "US Army",
+      "items": [
+        "Served as Intelligence Officer for the 7th Signal Brigade in Mannheim, Germany",
+        "Served as Officer in Charge for voice and data network services in Baghdad's International Zone"
+      ]
+    }
   ],
   "thingsIEnjoyDoing": [
     "Making stuff work.",
@@ -28,49 +55,82 @@
     "Solving complex technical problems.",
     "Simplifying API interactions."
   ],
-  "skills": [{
-    "name": "Back-end Development",
-    "detail": "NodeJS, ES6/2015, Hapi, REST APIs, Streams"
-  }, {
-    "name": "Database/Caching/PubSub Integrations",
-    "detail": "MongoDB, Redis, Kafka, Rabbit, MySQL, MSSQL, Oracle"
-  }, {
-    "name": "Front-end Development",
-    "detail": "React, MaterialUI, Backbone, D3.js, Bootstrap"
-  }, {
-    "name": "DevOps",
-    "detail": "Nginx, GitHub, Google Cloud"
-  }, {
-    "name": "Software Development",
-    "detail": "Agile Scrum, Waterfall"
-  }, {
-    "name": "Project Management",
-    "detail": "Network Services, IT Infrastructure, Software"
-  }, {
-    "name": "Telecommunications",
-    "detail": "Metro Ethernet, Fiber Optics, VoIP, Satellite"
-  }, {
-    "name": "Network Engineering",
-    "detail": "OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet"
-  }, {
-    "name": "Operations Management",
-    "detail": "Logistics, Training, Personnel, Safety"
-  }, {
-    "name": "Preferred Development Toolset",
-    "detail": "Atom, GitHub, Node.js, MongoDB, Ubuntu, React, Slack"
-  }],
+  "skills": [
+    {
+      "name": "Back-end Development",
+      "detail": "NodeJS, GraphQL, REST, Hapi, Apollo"
+    },
+    {
+      "name": "Database/Caching/PubSub Integrations",
+      "detail": "MongoDB, Redis, Kafka, Avro, Rabbit, MySQL, MSSQL, Oracle"
+    },
+    {
+      "name": "Front-end Development",
+      "detail": "React, MaterialUI, Backbone, D3.js, Bootstrap"
+    },
+    {
+      "name": "DevOps",
+      "detail": "Nginx, GitHub, Google Cloud, OneOps, Dynatrace, Splunk"
+    },
+    {
+      "name": "Software Development",
+      "detail": "Agile Scrum, Waterfall, TDD"
+    },
+    {
+      "name": "Software QA",
+      "detail": "Mocha, Jasmine, Jest, JIRA"
+    },
+    {
+      "name": "Telecommunications",
+      "detail": "Metro Ethernet, Fiber Optics, VoIP, Satellite"
+    },
+    {
+      "name": "Network Engineering",
+      "detail": "OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet"
+    },
+    {
+      "name": "Project Management",
+      "detail": "Network Services, IT Infrastructure, Software"
+    },
+    {
+      "name": "Operations Management",
+      "detail": "Logistics, Training, Personnel, Safety"
+    },
+    {
+      "name": "Preferred Development Toolset",
+      "detail": "Atom, GitHub, Node.js, MongoDB, Ubuntu, React, Slack"
+    }
+  ],
   "technologies": {
-    "languages": [ "NodeJS", "JavaScript", "ES6/2015", "HTML", "LESS" ],
+    "languages": [ "NodeJS", "JavaScript", "ES6/2015" ],
     "databases": [ "MongoDB", "Redis", "MySQL", "MSSQL", "Oracle" ],
     "queues": [ "Kafka", "Rabbit" ],
-    "backEnd": [ "Hapi", "Express", "Browserify", "Gulp", "Yeoman" ],
+    "backEnd": [ "Hapi", "Apollo", "GraphQL", "Express", "Browserify", "Gulp", "Yeoman" ],
     "frontEnd": [ "React", "MaterialUI", "JQuery", "Angular", "Backbone", "Bootstrap", "UIKit" ]
   },
   "experienceDetail": [
     {
-      "company": "PaxIQ",
+      "organization": "Walmart Labs",
+      "from": "September 2019",
+      "to": "Current",
+      "title": "Senior Software Engineer",
+      "responsibilities": [
+        "Design, support, & maintain GraphQL service to provide content to user-facing web and mobile applications.",
+        "Root cause analysis and resolution of any issues encountered during day-to-day operations or during stress-tests.",
+        "Advise and coordinate with internal and external teams to facilitate integrating new clients and features."
+      ],
+      "accomplishments": [
+        "Achieved 100% code coverage.",
+        "Improved response time of GraphQL API by 50% by refactoring application code.",
+        "Designed and implemented feature to enable dynamic and targeted end-user messaging capabilities.",
+        "Refactored application data model in order to integrate with additional upstream data sources.",
+        "Scaled application from 2,000 transactions/minute to 20,000 TPM"
+      ]
+    },
+    {
+      "organization": "PaxIQ",
       "from": "August 2017",
-      "to": "August 2019",
+      "to": "September 2019",
       "title": "Senior Software Engineer",
       "responsibilities": [
         "Responsible for all technical aspects of the company's flagship products.",
@@ -88,7 +148,7 @@
       ]
     },
     {
-      "company": "Cigna",
+      "organization": "Cigna",
       "from": "April 2014",
       "to": "August 2017",
       "title": "Senior Software Developer",
@@ -106,7 +166,7 @@
       ]
     },
     {
-      "company": "Integra",
+      "organization": "Integra",
       "from": "March 2011",
       "to": "April 2014",
       "title": "Senior Systems Developer",
@@ -124,7 +184,7 @@
       ]
     },
     {
-      "company": "Integra",
+      "organization": "Integra",
       "from": "August 2008",
       "to": "March 2011",
       "title": "Tier 3 Data Network Technician",
@@ -141,7 +201,7 @@
       ]
     },
     {
-      "company": "US Army, 7th Signal Bde",
+      "organization": "US Army, 7th Signal Bde",
       "from": "March 2007",
       "to": "May 2008",
       "title": "Intelligence & Network Ops Officer",
@@ -159,7 +219,7 @@
       ]
     },
     {
-      "company": "US Army, MNF-I Headquarters",
+      "organization": "US Army, MNF-I Headquarters",
       "from": "August 2005",
       "to": "February 2007",
       "title": "Officer in Charge, Communications Support Office",
