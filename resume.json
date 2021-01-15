@@ -7,6 +7,13 @@
   ],
   "workSummary": [
     {
+      "organization": "MAX Digital",
+      "items": [
+        "Deployed code to production GraphQL API within the first sprint",
+        "Wrote tests for 100% of new code"
+      ]
+    },
+    {
       "organization": "Walmart Labs",
       "items": [
         "Subject matter expert for GraphQL API performing 20,000 transactions per minute",
@@ -110,9 +117,22 @@
   },
   "experienceDetail": [
     {
+      "organization": "MAX Digital",
+      "from": "November 2020",
+      "to": "January 2021",
+      "title": "Senior Software Engineer",
+      "responsibilities": [
+        "Engineer solutions for GraphQL API"
+      ],
+      "accomplishments": [
+        "Deployed code to the Production GraphQL API within the first sprint",
+        "Wrote tests for 100% of new code"
+      ]
+    },
+    {
       "organization": "Walmart Labs",
       "from": "September 2019",
-      "to": "Current",
+      "to": "November 2020",
       "title": "Senior Software Engineer",
       "responsibilities": [
         "Design, support, & maintain GraphQL service to provide content to user-facing web and mobile applications.",

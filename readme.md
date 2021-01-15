@@ -18,6 +18,11 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 
 ## Work Summary
 
+### MAX Digital
+
+- Deployed code to production GraphQL API within the first sprint
+- Wrote tests for 100% of new code
+
 ### Walmart Labs
 
 - Subject matter expert for GraphQL API performing 20,000 transactions per minute
@@ -52,7 +57,7 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 ## Skills & Technologies
 
 - Back-end Development
-  - NodeJS, GraphQL, REST, Hapi, Apollo
+  - Node.js, GraphQL, REST, Hapi, Apollo
 - Database/Caching/PubSub Integrations
   - MongoDB, Redis, Kafka, Avro, Rabbit, MySQL, MSSQL, Oracle
 - Front-end Development
@@ -76,9 +81,22 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 
 ## Detailed Experience
 
+### Senior Software Engineer - MAX Digital
+
+> November 2020 - January 2021
+
+#### Responsibilities
+
+- Engineer solutions for GraphQL API
+
+#### Accomplishments
+
+- Deployed code to the Production GraphQL API within the first sprint
+- Wrote tests for 100% of new code
+
 ### Senior Software Engineer - Walmart Labs
 
-> September 2019 - Current
+> September 2019 - November 2020
 
 #### Responsibilities
 
