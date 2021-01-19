@@ -56,28 +56,19 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 
 ## Skills & Technologies
 
-- Back-end Development
-  - Node.js, GraphQL, REST, Hapi, Apollo
-- Database/Caching/PubSub Integrations
-  - MongoDB, Redis, Kafka, Avro, Rabbit, MySQL, MSSQL, Oracle
-- Front-end Development
-  - React, MaterialUI, Backbone, D3.js, Bootstrap
-- DevOps
-  - Nginx, GitHub, Google Cloud, OneOps, Dynatrace, Splunk
-- Software Development
-  - Agile Scrum, Waterfall, TDD
-- Software QA
-  - Mocha, Jasmine, Jest, JIRA
-- Telecommunications
-  - Metro Ethernet, Fiber Optics, VoIP, Satellite
-- Network Engineering
-  - OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet
-- Project Management
-  - Network Services, IT Infrastructure, Software
-- Operations Management
-  - Logistics, Training, Personnel, Safety
-- Preferred Development Toolset
-  - Atom, GitHub, Node.js, MongoDB, Ubuntu, React, Slack
+| Area of Focus | Skills & Technologies |
+| ---: | :--- |
+| Back-end Development | Node.js, GraphQL, REST, Hapi, Apollo |
+| Data Integrations | MongoDB, Redis, Kafka, Avro, Rabbit, MySQL, MSSQL, Oracle |
+| Software Development | Agile Scrum, Waterfall, TDD |
+| Software QA | Mocha, Jasmine, Jest, Mocking |
+| Preferred Toolset | Atom, GitHub, Node.js, MongoDB, Ubuntu, React, Slack |
+| DevOps | Nginx, GitHub, Google Cloud, OneOps, Dynatrace, Splunk |
+| Front-end Development | React, MaterialUI, Backbone, D3.js, Bootstrap |
+| Telecommunications | Metro Ethernet, Fiber Optics, VoIP, Satellite |
+| Network Engineering | OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet |
+| Project Management | Network Services, IT Infrastructure, Software |
+| Operations Management | Logistics, Training, Personnel, Safety |
 
 ## Detailed Experience
 
