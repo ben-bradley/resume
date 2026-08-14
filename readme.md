@@ -18,6 +18,14 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 
 ## Work Summary
 
+### ScienceLogic
+
+- Designed & implemented GraphQL API solutions
+- Provided subject matter expertise related to Node.js server orchestration
+- Planned and conducted conversion of multiple legacy REST API endpoints to GraphQL
+- Conducted code-owner reviews of teammate pull requests
+- Used AI agents to automate monotonous, time taking processes
+
 ### MAX Digital
 
 - Deployed code to production GraphQL API within the first sprint
