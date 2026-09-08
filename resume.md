@@ -20,11 +20,11 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 
 ### ScienceLogic
 
-- Designed & implemented GraphQL API solutions
-- Provided subject matter expertise related to Node.js server orchestration
-- Planned and conducted conversion of multiple legacy REST API endpoints to GraphQL
-- Conducted code-owner reviews of teammate pull requests
-- Used AI agents to automate monotonous, time taking processes
+- Owned and matured the multi-stack GraphQL platform (TypeScript/Node.js) that lets customers link independent stacks and manage far larger numbers of devices under a single control plane
+- Hardened GraphQL and data-access layers against production risks (SQL injection, validation, credential handling, Coverity fixes)
+- Designed and shipped caching layers that reduced redundant calls and improved reliability of cross-stack operations
+- Delivered AI Event Visualization GraphQL resources and supporting event-insights UI components
+- Drove high-velocity multi-branch release fixes and code-owner reviews while migrating legacy access hooks and REST endpoints to modern GraphQL patterns
 
 ### MAX Digital
 
@@ -66,7 +66,7 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 
 | Area of Focus | Skills & Technologies |
 | ---: | :--- |
-| Back-end Development | Node.js, GraphQL, REST, Hapi, Apollo |
+| Back-end Development | Node.js, GraphQL, TypeScript, REST, Hapi, Apollo |
 | Data Integrations | MongoDB, Redis, Kafka, Avro, Rabbit, MySQL, MSSQL, Oracle |
 | Software Development | Agile Scrum, Waterfall, TDD |
 | Software QA | Mocha, Jasmine, Jest, Mocking |
@@ -79,6 +79,27 @@ I love to build things, solve problems, and make stuff happen, but at the end of
 | Operations Management | Logistics, Training, Personnel, Safety |
 
 ## Detailed Experience
+
+### Senior Software Engineer - ScienceLogic
+
+> February 2021 - August 2026
+
+#### Responsibilities
+
+- Design, implement, and own GraphQL APIs and TypeScript/Node.js backend services for a large-scale IT operations and observability platform.
+- Extend and harden the data-access layer in front of a legacy PHP REST API so new GraphQL resources stay secure, correct, and performant.
+- Partner with product and engineering to deliver multi-stack scaling that lets customers manage far more devices and services from a single control plane.
+- Perform code-owner reviews, enforce consistent GraphQL schema patterns, and support high-velocity release cycles with coordinated multi-branch fixes.
+- Improve API observability, logging, and operational safety while applying AI-assisted practices to repetitive work.
+
+#### Accomplishments
+
+- Drove maturation of the multi-stack GraphQL platform after inheriting it—delivered ownership models, synchronization, and GUID-based resource handling so customers could link independent stacks under one control plane.
+- Hardened the GraphQL and data-access layer against production risks: eliminated SQL-injection vectors, added cursor validation, content-type checks, credential redaction, and Coverity-driven fixes.
+- Designed and shipped caching layers that cut redundant stack calls and improved reliability of cross-stack operations.
+- Delivered an AI Event Visualization GraphQL resource plus supporting event-insights UI, table sorting, and severity highlighting.
+- Migrated legacy access-control hooks and selected REST endpoints to modern GraphQL patterns; consolidated stack-interaction utilities for cleaner code.
+- Repeatedly identified, fixed, and rapidly back-ported critical bugs across concurrent release trains, minimizing customer impact while preserving quality.
 
 ### Senior Software Engineer - MAX Digital
 
