@@ -1,251 +1,87 @@
 # Ben Bradley
 
-> ben@bradleyfamily.org
+**Senior Software Engineer · Node.js · GraphQL · TypeScript**
 
-## What I'm Looking For
+Paron, AR · +1-361-236-7967 · ben@bradleyfamily.org · [linkedin.com/in/benpbradley](https://linkedin.com/in/benpbradley) · [github.com/ben-bradley](https://github.com/ben-bradley)
 
-### The Work
+---
 
-I love working on back-end systems. Building efficient and intuitive APIs is something that I thoroughly enjoy. Learning to understand the data models and how best to interact with them is like untying a knot and putting together a jigsaw puzzle at the same time.
+## Professional Summary
 
-### The People
+Senior backend engineer with 15+ years owning production APIs and data platforms in TypeScript/Node.js and GraphQL. Most recently matured a multi-stack GraphQL control plane at ScienceLogic—delivering ownership models, security hardening, caching, and AI event visualization so customers manage independent stacks from a single plane. Previously scaled a WalmartLabs GraphQL content service 10× (2k→20k TPM) while cutting response time 50%, and built white-label booking systems, integration platforms, and large-scale network management systems. Proven at taking inherited or legacy systems, making them secure and observable, and shipping reliable features at high velocity. Authorized to work in the U.S. for any employer.
 
-I like to think of myself as an easy-going, friendly and respectful person and I prefer to spend my time around people who think similarly of themselves. When you work with people that are cool and level-headed, the debate about tabs vs. spaces (__2 spaces!__) isn't a distraction and you're able to focus on getting work done.
+---
 
-### The Culture
+## Work Experience
 
-I love to build things, solve problems, and make stuff happen, but at the end of the day, I do it all for my family. Finding a sustainable work/life balance is crucial. Of course there will be times when you have to answer the phone outside of "normal hours", but when that becomes the standard instead of the exception, it's time to re-evaluate in order to find a better balance.
+### Senior Software Engineer
+**ScienceLogic** · Remote · February 2021 – August 2026
 
-## Work Summary
+- **Multi-stack GraphQL platform:** Inherited a multi-stack GraphQL control plane for a large-scale IT operations platform where independent stacks lacked consistent ownership and identity models. Designed ownership models, synchronization, and GUID-based resource handling so customers could link stacks under one control plane and scale device/service management.
+- **Security hardening:** Faced production risks (SQL injection, weak validation, credential exposure) in the GraphQL and data-access layer in front of a legacy PHP REST API. Eliminated injection vectors, added cursor/content-type validation, implemented credential redaction, and drove Coverity fixes—keeping new resources secure, correct, and performant.
+- **Performance & reliability:** Cross-stack operations incurred redundant calls and reliability issues as the multi-stack model grew. Designed and shipped caching layers that cut redundant stack calls and improved reliability of multi-stack operations.
+- **AI event visualization:** Delivered a GraphQL resource plus supporting event-insights UI (table sorting, severity highlighting) so customers could act on AI-driven events.
+- **Release ownership:** As code owner supporting high-velocity multi-branch releases, enforced consistent GraphQL schema patterns, performed reviews, and repeatedly fixed and back-ported critical bugs across concurrent trains—minimizing customer impact while preserving delivery speed. Migrated selected legacy access-control hooks and REST endpoints to modern GraphQL patterns.
 
-### ScienceLogic
+### Senior Software Engineer
+**MAX Digital** · Remote · November 2020 – January 2021
 
-- Owned and matured the multi-stack GraphQL platform (TypeScript/Node.js) that lets customers link independent stacks and manage far larger numbers of devices under a single control plane
-- Hardened GraphQL and data-access layers against production risks (SQL injection, validation, credential handling, Coverity fixes)
-- Designed and shipped caching layers that reduced redundant calls and improved reliability of cross-stack operations
-- Delivered AI Event Visualization GraphQL resources and supporting event-insights UI components
-- Drove high-velocity multi-branch release fixes and code-owner reviews while migrating legacy access hooks and REST endpoints to modern GraphQL patterns
+- **Rapid production delivery:** Joined a GraphQL API team and shipped code to the production GraphQL service within the first sprint while writing tests that covered 100% of new code.
 
-### MAX Digital
+### Senior Software Engineer
+**WalmartLabs** · Remote · September 2019 – November 2020
 
-- Deployed code to production GraphQL API within the first sprint
-- Wrote tests for 100% of new code
+- **Scale & performance:** GraphQL content service serving web and mobile clients needed higher throughput and lower latency. Refactored application code and data model, improving response time by 50% and scaling throughput from 2,000 to 20,000 transactions per minute (10×).
+- **Feature delivery under pressure:** Rapidly designed and implemented dynamic, targeted end-user messaging capabilities through the GraphQL platform during the COVID-19 period; coordinated with internal and external teams. Achieved 100% code coverage and owned day-to-day root-cause analysis for the service.
 
-### Walmart Labs
+### Senior Software Engineer
+**PaxIQ** · Remote · August 2017 – September 2019
 
-- Subject matter expert for GraphQL API performing 20,000 transactions per minute
-- Rapidly designed & implemented new features to enable multi-channel customer messaging during COVID-19 crisis
+- **White-label booking engine:** Company needed a flagship product enabling online operations for regional carriers. Built an Internet Booking Engine (white-label airline booking and ticketing system) and owned end-to-end technical delivery of the company’s products while mentoring junior developers and implementing Agile practices as Scrum Master.
+- **Legacy modernization:** Airline inventory arrived as fixed-length text messages and legacy systems used terminal commands. Created a distributed queuing system converting inventory records into JSON/XML APIs; built a REST API enabling modern integrations with legacy systems; developed rules-based integrations for automated booking-data handling across disparate systems.
 
-### PaxIQ
+### Senior Software Developer
+**Cigna Healthcare** · Portland, OR · April 2014 – August 2017
 
-- Overall responsibility for the design & operation of all aspects of the company's products
-- Implemented Agile development practices and acted as Scrum Master and team member
-- Designed, developed, and maintained Internet Booking Engine as the company's flagship product
+- **Integration platform:** QA and development teams needed rapid automation and integrations with short or no notice. Delivered 15+ REST APIs and web applications integrating MongoDB, Redis, RabbitMQ, Kafka, Avro, TestRail, JIRA, Jama, Twilio, and Fitbit; created a Fitbit REST API simulator for performance testing.
+- **Tooling & open source:** Built a Node.js Streams-based Kafka/Avro library, Jasmine/Mocha frameworks integrated with TestRail, and web apps that simplified complex SQL/NoSQL interactions (cutting troubleshooting time). Contributed an upstream merge request to auth0/jsonwebtoken enabling test scenarios that ignore JWT expiration; authored 33 NPM packages and contributed to Mocha and SSH2.
 
-### Cigna Healthcare
-- Authored 33 NPM packages and contributed to Mocha, SSH2, and JSONWebToken
-- Created 5 full-stack applications built on Hapi and React to enable internal production support
-- Engineered more than 15 back-end tools and APIs integrating MongoDB, Redis, Kafka, Rabbit, and SOAP endpoints
-- Architected QA Automation framework to validate external production REST API
+### Senior Systems Developer
+**Integra Telecom** · Portland, OR · March 2011 – April 2014
 
-### Integra Telecom
+- **Nationwide management platform:** Needed fault and performance management for a nationwide network. Architected, installed, configured, and supported a $2.1M CA Spectrum and Performance Center deployment (42 Linux/Windows servers across three data centers).
+- **Network topology & provisioning:** Designed and built Ethring, a real-time network topology visualization web app so teams shared a dynamic view of connectivity and status; built the front-end for an Enterprise Ethernet Service Provisioning application that automated provision/modify/deprovision flows. Developed APIs extending vendor capabilities and contributed to the Node.js ssh2 module.
 
-- Developed a network topology mapping application built entirely on JavaScript (NodeJS, MongoDB, Backbone)
-- Developed back-end framework and wrote the UI code for the Ethernet Services Provisioning application
-- Wrote multiple applications to automate the routine functions of a Tier 3 Network Technician
-- Developed a full-stack application framework enabling the integration of smaller applications into a common UI
-- Designed, installed, configured and supported deployment of CA Infrastructure Manager 2.0
-- Designed and configured CA Spectrum network fault management system
+### Tier 3 Network Services Technician
+**Integra Telecom** · Portland, OR · August 2008 – March 2011
 
-### US Army
+- **Network upgrade automation:** Backbone and customer-facing Cisco router upgrades caused ~2 hours of downtime for ~40,000 customers. Developed systems, databases, processes, and standards that reduced downtime to 10 minutes.
+- **Maintenance coordination:** Designed business processes and a SharePoint portal coordinating maintenance, resource allocation, and customer notifications across a 13-state network (avg. 450 activities/month) with trending reports for informed decisions.
+- **Config automation:** Created standards and web apps that automated configuration scripts for Cisco Metro Ethernet devices and Allied Telesis iMAP multiplexers—enabling field techs to accurately bring 105+ Cisco ME3400s and 75+ ATI 9700s into the network.
 
-- Served as Intelligence Officer for the 7th Signal Brigade in Mannheim, Germany
-- Served as Officer in Charge for voice and data network services in Baghdad's International Zone
+---
 
-## Skills & Technologies
+## Military Service
 
-| Area of Focus | Skills & Technologies |
-| ---: | :--- |
-| Back-end Development | Node.js, GraphQL, TypeScript, REST, Hapi, Apollo |
-| Data Integrations | MongoDB, Redis, Kafka, Avro, Rabbit, MySQL, MSSQL, Oracle |
-| Software Development | Agile Scrum, Waterfall, TDD |
-| Software QA | Mocha, Jasmine, Jest, Mocking |
-| Preferred Toolset | Atom, GitHub, Node.js, MongoDB, Ubuntu, React, Slack |
-| DevOps | Nginx, GitHub, Google Cloud, OneOps, Dynatrace, Splunk |
-| Front-end Development | React, MaterialUI, Backbone, D3.js, Bootstrap |
-| Telecommunications | Metro Ethernet, Fiber Optics, VoIP, Satellite |
-| Network Engineering | OSI Layers 1-4, MPLS, BGP, OSPF, Ethernet |
-| Project Management | Network Services, IT Infrastructure, Software |
-| Operations Management | Logistics, Training, Personnel, Safety |
+### Captain, U.S. Army — Intelligence & NetOps Officer / Officer in Charge, Communications
+May 2004 – March 2008
 
-## Detailed Experience
+- **Green Zone networks (MNF-I, Baghdad):** Provided voice and data communications to 4,000+ customers under hostile-environment constraints. Maintained 99% network availability while managing $10M+ of hardware and leading 27 Soldiers (six supervisors overseeing 125 technicians). Built a reporting database that cut status-report generation from hours to minutes; briefed the MNF-I CIO weekly. Planned and installed fiber/user-access infrastructure adding capacity for 1,000+ users across three networks in under one week; managed IT at the Iraqi High Tribunal Courthouse. All 27 Soldiers under command returned home safely.
+- **Theater Network Operations (7th Signal Brigade, Europe):** Developed policies, procedures, and automated reporting databases for an 800-person organization, cutting reporting time from hours to seconds. Successfully planned and executed the first deployment of the Tactical European Theater Network Operations Center while supervising network management across the European theater. Recognized with the Bronze Star Medal and Army Achievement Medal.
 
-### Senior Software Engineer - ScienceLogic
+---
 
-> February 2021 - August 2026
+## Education
 
-#### Responsibilities
+**Bachelor of Arts, Management Information Systems** · Washington State University, Pullman, WA · 2000 – 2004
 
-- Design, implement, and own GraphQL APIs and TypeScript/Node.js backend services for a large-scale IT operations and observability platform.
-- Extend and harden the data-access layer in front of a legacy PHP REST API so new GraphQL resources stay secure, correct, and performant.
-- Partner with product and engineering to deliver multi-stack scaling that lets customers manage far more devices and services from a single control plane.
-- Perform code-owner reviews, enforce consistent GraphQL schema patterns, and support high-velocity release cycles with coordinated multi-branch fixes.
-- Improve API observability, logging, and operational safety while applying AI-assisted practices to repetitive work.
+---
 
-#### Accomplishments
+## Skills
 
-- Drove maturation of the multi-stack GraphQL platform after inheriting it—delivered ownership models, synchronization, and GUID-based resource handling so customers could link independent stacks under one control plane.
-- Hardened the GraphQL and data-access layer against production risks: eliminated SQL-injection vectors, added cursor validation, content-type checks, credential redaction, and Coverity-driven fixes.
-- Designed and shipped caching layers that cut redundant stack calls and improved reliability of cross-stack operations.
-- Delivered an AI Event Visualization GraphQL resource plus supporting event-insights UI, table sorting, and severity highlighting.
-- Migrated legacy access-control hooks and selected REST endpoints to modern GraphQL patterns; consolidated stack-interaction utilities for cleaner code.
-- Repeatedly identified, fixed, and rapidly back-ported critical bugs across concurrent release trains, minimizing customer impact while preserving quality.
-
-### Senior Software Engineer - MAX Digital
-
-> November 2020 - January 2021
-
-#### Responsibilities
-
-- Engineer solutions for GraphQL API
-
-#### Accomplishments
-
-- Deployed code to the Production GraphQL API within the first sprint
-- Wrote tests for 100% of new code
-
-### Senior Software Engineer - Walmart Labs
-
-> September 2019 - November 2020
-
-#### Responsibilities
-
-- Design, support, & maintain GraphQL service to provide content to user-facing web and mobile applications.
-- Root cause analysis and resolution of any issues encountered during day-to-day operations or during stress-tests.
-- Advise and coordinate with internal and external teams to facilitate integrating new clients and features.
-
-#### Accomplishments
-
-- Achieved 100% code coverage.
-- Improved response time of GraphQL API by 50% by refactoring application code.
-- Designed and implemented feature to enable dynamic and targeted end-user messaging capabilities.
-- Refactored application data model in order to integrate with additional upstream data sources.
-- Scaled application from 2,000 transactions/minute to 20,000 TPM
-
-### Senior Software Engineer - PaxIQ
-
-> August 2017 - September 2019
-
-#### Responsibilities
-
-- Responsible for all technical aspects of the company's flagship products.
-- Design, develop, and maintain the systems, databases, networks and applications to support the delivery of the company's products.
-- Troubleshooting and investigation of multiple applications and integrations.
-- Training and professional development of Junior Developers.
-
-#### Accomplishments
-
-- Built an Internet Booking Engine as a white-label airline booking and ticketing system that enabled online operations for small to mid-sized regional carriers.
-- Developed multiple rules-based integrations enabling intelligent, automated handling and processing of airline booking data into multiple disparate systems.
-- Redesigned and implemented coding standards in legacy airline operations software.
-- Created a distributed queuing system that converted airline inventory records from a fixed-length text messages into JSON and XML-based APIs.
-- Built a REST API that enabled modern integrations with legacy, terminal command-based systems.
-- Architected the systems, databases, and networks that provided the foundation for the company's products.
-
-
-### Senior Software Developer - Cigna Healthcare
-
-> April 2014 - August 2017
-
-#### Responsibilities
-
-- Rapidly develop back-end and full-stack applications to solve short or no-notice problems
-- Work closely with the Quality Assurance and Development teams to understand and meet their automation needs
-- Troubleshoot legacy production-internal NodeJS applications
-
-#### Accomplishments
-
-- Created a simulator for the Fitbit REST API to enable internal performance testing for internal and external clients
-- Wrote more than 15 REST APIs and web applications to enable integrations using technologies that included Mongo, Redis, Rabbit, Kafka, Avro, TestRail, JIRA, Jama, Twilio, and Fitbit
-- Successfully submitted a merge request to the auth0/jsonwebtoken project enable the availability to ignore expiration dates on JWTs
-- Automated multiple MongoDB operations to enable QA performance and unit testing automation
-- Wrote a library to allow interaction with Kafka and Avro via the NodeJS Streams API
-- Built test frameworks to integrate Jasmine and Mocha tests with TestRail
-- Developed several web applications that simplified complex SQL and NoSQL database interactions which greatly reduced time spent troubleshooting bugs
-
-
-### Senior Systems Developer - Integra Telecom
-
-> March 2011 - April 2014
-
-#### Responsibilities
-
-- Architect, implement, and support CA Spectrum fault management and Infrastructure Manager 2.0 performance management solution for nationwide network
-- Review vendor software solutions and help inform management regarding the capabilities of the application
-- Develop custom integrations to provide seamless functionality between related systems
-
-#### Accomplishments
-
-- Developed multiple RESTful APIs to extend the functionality and presentation capabilities of vendor applications
-- Designed, developed and implemented Ethring, a web application that provides visualizations of network topology enabling users to share a common, dynamic and real-time view of network connectivity and status
-- Built front-end user interface for Enterprise Ethernet Service Provisioning application to automate the provisioning, modification, and deprovisioning of customer services
-- Contributed code to the “ssh2” NodeJS module to enable the invocation of arbitrary subsystems via SSH
-- Architected, installed, configured, and supported a $2.1million CA Spectrum, and Performance Center deployment consisting of 42 Linux and Windows servers in three datacenters
-
-
-### Tier 3 Network Services Technician - Integra Telecom
-
-> August 2008 - March 2011
-
-#### Responsibilities
-
-- Development and customization of multiple SharePoint portal sites
-- Design and development of web-capable database applications to automate complex network tasks
-- Provisioning and validation of carrier class Metro Ethernet solutions based on Cisco ME 3400 and 4900 series switches
-- Maintenance and operations of national data network backbone devices including Cisco 10000 and 7600 series routers
-
-#### Accomplishments
-
-- Developed and implemented systems, databases, processes, and standards to perform system upgrades of back-bone and customer-facing Cisco routers across the network.  Implementation of these tools and processes reduced the downtime for approximately 40,000 customers from two hours to only 10 minutes
-- Designed the business processes and SharePoint portal to coordinate network maintenance activities, resource allocation and customer notifications for a network spanning 13 states.  This system processed an average of 450 maintenance activities per month and provided trending reports that enabled well-informed business and technical decisions
-- Created standards and web-based applications to automate the creation of system configuration scripts for Cisco Metro Ethernet devices and Allied Telesis iMAP fiber and DSL multiplexers.  These tools enabled field technicians to quickly and accurately bring over 105 Cisco ME3400’s and 75 ATI 9700’s into the network making it possible for technical experts to focus on more critical issues
-
-
-### Intelligence & NetOps Officer - 7th Signal Brigade
-
-> March 2007 - May 2008
-
-#### Responsibilities
-
-- Compile and present reports executive management on a weekly basis concerning the status of multiple networks and ongoing operations throughout Europe and Central Asia
-- Overall responsibility for the planning, designing, installing, configuring, and troubleshooting of LAN and WAN network devices and supporting infrastructure
-- Developing and maintaining documentation of network design, problems and resolutions, processes and policies
-- Supervision of five personnel who conducted network management for data networks across the European theater
-
-#### Accomplishments
-
-- Developed policies, procedures, and systems for reporting project and operational statuses for an 800 person organization
-- Designed and implemented multiple databases to automate reporting procedures. Resulted in increased efficiency and reduced reporting time from hours to seconds
-- Successfully planned and executed the first deployment of the Tactical European Theater Network Operations Center
-- Accomplishments recognized with the Army Commendation Medal
-
-
-### Officer in Charge, Communications - Multi-National Forces - Iraq
-
-> August 2005 - February 2007
-
-#### Responsibilities
-
-- Providing voice and data communications networks to over 4000 customers in Baghdad’s Green Zone. Total network availability was maintained at 99% despite the multitude of challenges unique to a hostile environment
-- Ensuring the safety, training, and well-being of 27 Soldiers in a combat zone
-- Managing the maintenance, operation, and accountability of more than $10 million of network hardware which included network outage/latency root-cause analysis and troubleshooting, maintaining and upgrading network infrastructure, documentation of network design, issue resolution, techniques and procedures
-- Responsible for six supervisors who managed 125 technicians in nine functional areas
-- Briefing the MNF-I Chief Information Officer on a weekly basis concerning the status of networks and operations
-
-#### Accomplishments
-
-- All 27 Soldiers under my authority returned home safely after spending one year in Baghdad
-- Developed reporting database using Microsoft Access & Excel to interface with Remedy ticketing system. This solution reduced report generation time from hours to minutes and facilitated the expedition of root cause analysis
-- Planned and managed the installation of fiber optic and user access infrastructure where none had previously existed to support the addition of over 1000 users to three separate networks in less than one week
-- Managed the installation of IT infrastructure into the Iraqi High Tribunal Courthouse, site of the Saddam Hussein trial
-- Recognized with the Bronze Star Medal and Army Achievement Medal for the superior performance of the department
+**Languages & Runtimes:** TypeScript, JavaScript, Node.js  
+**APIs:** GraphQL, REST, Apollo, Hapi  
+**Data & Messaging:** MongoDB, Redis, Kafka, RabbitMQ, Avro, PostgreSQL, MySQL  
+**Platform & Ops:** Linux, Git, Nginx, observability/logging, API security hardening  
+**Practices:** Code ownership, schema design, multi-branch release coordination, TDD, Agile/Scrum, AI-assisted development  
+**Front-end (supporting):** React, Material UI
