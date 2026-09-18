@@ -1,6 +1,6 @@
 {
   "name": "ben-bradley",
-  "version": "3.2.0",
+  "version": "4.0.0",
   "author": {
     "name": "Ben Bradley",
     "url": "http://github.com/ben-bradley"
@@ -9,7 +9,11 @@
   "main": "./resume.json",
   "keywords": [
   	"Ben Bradley",
-  	"resume"
+  	"resume",
+	"Node.js",
+	"GraphQL",
+	"TypeScript",
+	"REST"
   ],
   "repository": {
     "type": "git",
